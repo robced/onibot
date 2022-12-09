@@ -1,2 +1,0 @@
-# onibot
- Discord Music Bot

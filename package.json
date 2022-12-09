@@ -1,7 +1,4 @@
 {
-  "devDependencies": {
-    "typescript": "^4.9.4"
-  },
   "name": "onibot",
   "version": "1.0.0",
   "main": "index.js",
@@ -22,6 +19,7 @@
     "discord-player": "^5.3.2",
     "discord.js": "^14.7.1",
     "dotenv": "^16.0.3",
-    "nodemon": "^2.0.20"
+    "ffmpeg-static": "^5.1.0",
+    "ytdl-core": "^4.11.2"
   }
 }
