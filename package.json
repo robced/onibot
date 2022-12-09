@@ -1,0 +1,27 @@
+{
+  "devDependencies": {
+    "typescript": "^4.9.4"
+  },
+  "name": "onibot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "watch": "tsc -w",
+    "start": "node dist/index.js",
+    "dev": "nodemon dist/index.js"
+  },
+  "keywords": [],
+  "author": "robced",
+  "license": "ISC",
+  "description": "Discord Music Bot",
+  "dependencies": {
+    "@discordjs/builders": "^1.4.0",
+    "@discordjs/opus": "^0.8.0",
+    "@discordjs/rest": "^1.4.0",
+    "@discordjs/voice": "^0.14.0",
+    "discord-player": "^5.3.2",
+    "discord.js": "^14.7.1",
+    "dotenv": "^16.0.3",
+    "nodemon": "^2.0.20"
+  }
+}
