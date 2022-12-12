@@ -16,7 +16,7 @@ module.exports = {
     queue.skip();
     await interaction.editReply({
       embeds: [
-        new MessageEmbed()
+        new EmbedBuilder()
           .setDescription(`${currentSong.title} ha sido saltada.`)
           .setThumbnail(currentSong.thumbnail),
       ],
