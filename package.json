@@ -5,7 +5,8 @@
   "scripts": {
     "watch": "tsc -w",
     "start": "node dist/index.js",
-    "dev": "nodemon dist/index.js"
+    "dev": "nodemon dist/index.js",
+    "botrun": "nodemon --exitcrash app.js"
   },
   "keywords": [],
   "author": "robced",
@@ -20,6 +21,7 @@
     "discord.js": "^14.7.1",
     "dotenv": "^16.0.3",
     "ffmpeg-static": "^5.1.0",
+    "nodemon": "^2.0.20",
     "ytdl-core": "^4.11.2"
   }
 }
